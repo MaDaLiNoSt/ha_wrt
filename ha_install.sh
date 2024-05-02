@@ -1,6 +1,6 @@
 #!/bin/sh
 # Homeassistant installer script by @devbis
-
+  echo "Madalinost v1.0";
 get_ha_version()
 {
   wget -q -O- https://pypi.org/simple/homeassistant/ | grep ${HOMEASSISTANT_MAJOR_VERSION} | tail -n 1 | cut -d "-" -f2 | cut -d "." -f1,2,3
