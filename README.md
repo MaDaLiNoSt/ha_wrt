@@ -12,7 +12,7 @@ widely used with smart home solutions.
 
 
 ```sh
-wget https://raw.githubusercontent.com/MaDaLiNoSt/ha_madalin/main/ha_install.sh -O - | sh
+wget https://raw.githubusercontent.com/MaDaLiNoSt/ha_wrt/main/ha_install.sh -O - | sh
 ```
 After script prints `Done.` you have Home Assistant installed. 
 Start the service or reboot the device to get it start automatically.
