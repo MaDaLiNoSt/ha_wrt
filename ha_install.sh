@@ -387,7 +387,7 @@ media_player
 media_source
 met
 min_max
-#mobile_app
+mobile_app
 mpd
 mqtt
 my
@@ -467,7 +467,7 @@ rm -rf ${TMPSTRUCT} /tmp/ha_components.txt
 cd /tmp
 
 # extract without components to reduce space
-tar -zxf homeassistant.tar.gz -X /tmp/ha_exclude.txt
+tar -zxf homeassistant.tar.gz #-X /tmp/ha_exclude.txt
 rm -rf /tmp/ha_exclude.txt
 
 rm -rf homeassistant.tar.gz
