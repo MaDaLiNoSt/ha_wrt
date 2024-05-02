@@ -387,7 +387,7 @@ media_player
 media_source
 met
 min_max
-mobile_app
+#mobile_app
 mpd
 mqtt
 my
@@ -438,7 +438,7 @@ upnp
 usb
 vacuum
 valve
-wake_on_lan
+#wake_on_lan
 wake_word
 water_heater
 weather
@@ -657,7 +657,7 @@ default_config:
 # Text to speech
 tts:
   - platform: google_translate
-    language: ru
+    language: ro
 
 recorder:
   purge_keep_days: 1
@@ -725,5 +725,7 @@ start_service()
 EOF
 chmod +x /etc/init.d/hass-configurator
 /etc/init.d/hass-configurator enable
+
+reboot
 
 echo "Done."

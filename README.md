@@ -5,18 +5,14 @@ on a system with OpenWrt 23.05+ installed. It provides the reduced version of HA
 included. Additionally, it keeps MQTT, ESPHome, and ZHA components as they are 
 widely used with smart home solutions.
 
-It is distributed with a shell script that downloads and installs everything that required for a clean start.
-
 ### Requirements:
 - 256 MB storage space
 - 256 MB RAM
 - OpenWrt 23.05.0 or newer installed
 
-## Generic installation
-Then, download the installer and run it.
 
 ```sh
-wget https://raw.githubusercontent.com/MaDaLiNoSt/homeassistant_on_openwrt/main/ha_install.sh -O - | sh
+wget https://raw.githubusercontent.com/MaDaLiNoSt/ha_madalin/main/ha_install.sh -O - | sh
 ```
 After script prints `Done.` you have Home Assistant installed. 
 Start the service or reboot the device to get it start automatically.
